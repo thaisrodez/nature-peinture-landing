@@ -6,22 +6,14 @@ const Navbar = () => {
     <>
       <Nav>
         <NavLink to="/">
-          <h1>Nature Peinture</h1>
+          <h1 className="logo">Nature Peinture l'Agence</h1>
         </NavLink>
         <Bars />
         <NavMenu>
-          <NavLink to="/about" activeStyle>
-            A propos
-          </NavLink>
-          <NavLink to="/projects" activeStyle>
-            Projets
-          </NavLink>
-          <NavLink to="/media" activeStyle>
-            Media
-          </NavLink>
-          <NavLink to="/contact" activeStyle>
-            Contact
-          </NavLink>
+          <NavLink to="/about">A propos</NavLink>
+          <NavLink to="/projects">Projets</NavLink>
+          <NavLink to="/media">Media</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
         </NavMenu>
       </Nav>
     </>

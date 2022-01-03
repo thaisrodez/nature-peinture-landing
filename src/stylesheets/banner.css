@@ -1,0 +1,24 @@
+h1.capital-white {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+  font-size: 54px;
+  line-height: 62px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  text-shadow: 1px 1px 0px #358a85;
+}
+
+.banner {
+  background-image: url("../images/banner2000x620.jpeg");
+  width: 100%;
+  height: 530px;
+  left: 0px;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
